@@ -21,6 +21,58 @@ allprojects {
 implementation 'com.github.toshiro97:WeatherUICustom:Tag'
 ```
 
+## Setup XML 
+
+**For air**
+
+
+```
+<com.toshiro.customview.AirIndicatorCustomView
+            android:id="@+id/airIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAirStatus"
+            app:progress_position="150"
+            />
+	    
+```
+
+**For Moon**
+
+```
+com.toshiro.customview.MoonCustomView
+                android:id="@+id/moon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                app:percent_moon="0.5"
+
+                />
+
+```
+
+**For Sun**
+
+```
+update tomorrow
+
+```
+
+## Setup programmatically 
+
+```
+// air in 1-500 , follow air condition, and weatherbit
+   airIndicator.updateProgress(150)
+
+ // moon percent in 0-1,follow api weatherbit
+    moon1.updateMoon(0.1)
+    moon2.updateMoon(0.3)
+    moon3.updateMoon(0.7)
+    moon4.updateMoon(1.0)
+
+```
+
 ## Authors
 
 * **toshiro97** - *Initial work* - [Toshiro97](https://github.com/Toshiro97)
