@@ -23,7 +23,7 @@ implementation 'com.github.toshiro97:WeatherUICustom:Tag'
 
 ## Authors
 
-* **toshiro97** - *Initial work* - [PurpleBooth](https://github.com/Toshiro97)
+* **toshiro97** - *Initial work* - [Toshiro97](https://github.com/Toshiro97)
 
 
 ## License
