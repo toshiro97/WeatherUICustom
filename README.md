@@ -5,6 +5,9 @@
 ***This library made by me , I use app today weather and I feel UI in this app so pretty. I custom some UI in the app with canvas. If it can help you please give me a star , I feel so happy 😂😂😂😂***
 *First time I write library , I think it not very good but I will update version*
 # Preview
+
+![alt text](https://user-images.githubusercontent.com/29646525/63437586-0106d500-c455-11e9-898f-1ec110a9fc37.png)
+
 # Implemention
 
 *Add it in your root build.gradle at the end of repositories:*
