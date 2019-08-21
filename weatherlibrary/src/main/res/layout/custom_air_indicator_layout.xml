@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:id="@+id/linearStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAirIndicator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:text="104"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="48sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:text="Không tốt cho người nhạy cảm"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:text="Những người nhạy cảm có thể gặp ảnh hưởng tới sức khỏe"
+                android:textColor="@color/text_description"
+                android:textSize="14sp"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.toshiro.customview.ProgressCustom
+        android:id="@+id/progress_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearStatus"
+        android:layout_marginTop="8dp"
+        
+        />
+
+</RelativeLayout>

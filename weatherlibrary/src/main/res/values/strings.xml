@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Weather Library</string>
+
+
+    <string name="excellent_title">Xuất sắc</string>
+    <string name="good_title">Tốt</string>
+    <string name="slight_pollution_title">Ô nhiễm nhẹ</string>
+    <string name="moderate_pollution_title">Ô nhiễm vừa phải</string>
+    <string name="heavily_polluted_title">Bị ô nhiễm nặng</string>
+    <string name="heavy_pollution_title">Ô nhiễm nặng</string>
+
+    <string name="excellent_description">Không có tác động đến sức khỏe</string>
+    <string name="good_description">Một số chất ô nhiễm có thể ảnh hưởng đến cá nhân quá nhạy cảm</string>
+    <string name="slight_pollution_description">Những người khỏe mạnh có thể bị kích thích nhẹ</string>
+    <string name="moderate_pollution_description">Những người nhạy cảm có thể gặp ảnh hưởng tới sức khỏe</string>
+    <string name="heavily_polluted_description">Người khỏe mạnh thường có triệu chứng</string>
+    <string name="heavy_pollution_description">Người khỏe mạnh sẽ bị yếu đi trong cá hoạt động</string>
+</resources>

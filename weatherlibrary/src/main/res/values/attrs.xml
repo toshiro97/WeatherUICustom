@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BenefitView">
+        <attr name="image" format="reference" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="AirIndicatorCustomView">
+        <attr name="progress_position" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MoonCustomView">
+        <attr name="percent_moon" format="string" />
+    </declare-styleable>
+</resources>
