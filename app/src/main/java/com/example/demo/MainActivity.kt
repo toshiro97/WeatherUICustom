@@ -13,5 +13,7 @@ class MainActivity : AppCompatActivity() {
         airIndicator.updateProgress(259)
 
         moon_custom.updateMoon(0.8)
+
+        sun_in_day.updateTime("06:00","18:30","10:00")
     }
 }
